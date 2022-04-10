@@ -502,7 +502,7 @@ public class PlaceOrder extends javax.swing.JFrame
         Date date=new Date();
         String todaydate=dFormat.format(date);
         String total=String.valueOf(grandTotal);
-        String createdBy=userEmail;
+       // String createdBy=userEmail;
         Bill bill=new Bill();
         bill.setId(billId);
         bill.setName(customerName);
@@ -556,7 +556,7 @@ public class PlaceOrder extends javax.swing.JFrame
         }
         doc.close();
         setVisible(false);
-        new PlaceOrder(createdBy).setVisible(true);       
+        //new PlaceOrder(createdBy).setVisible(true);       
     }//GEN-LAST:event_btnBillActionPerformed
 
     private void txtSearchActionPerformed(java.awt.event.ActionEvent evt)//GEN-FIRST:event_txtSearchActionPerformed

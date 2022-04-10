@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
  */
 public class Home extends javax.swing.JFrame
 {
-    public String email;
+    public String email;    
     /**
      * Creates new form Home
      */
